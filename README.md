@@ -11,8 +11,7 @@ The app:
     - Users can add notes to saved recipes
 - Lets user keep list of recipes they are currently making (or making soon)
     - Allows user to scale the recipe up or down depending on the portion they are making
-    - Recipes can be scaled based on the amount of one ingredient (only have 1/3 cup of flour but the recipe calls for 
-    1/2 cup? Need to use up all 10 tomatoes that are about to go bad?)
+    - Recipes can be scaled based on the amount of one ingredient (only have 1/3 cup of flour but the recipe calls         for 1/2 cup? Need to use up all 10 tomatoes that are about to go bad?)
     - Scaled recipes can be saved
     - Scaled recipes from the user's saved recipes can be saved without altering the original
 - Lets user search for recipes from Buzzfeed Tasty and from their own saved recipes by ingredient or name
@@ -30,7 +29,7 @@ This project was created using [this](https://nextjs.org/learn) is a starter tem
 - install mysql2 by running `npm install --save mysql2`
 - Replace the template `pages` directory with the `pages` directory from this repository
 - In the `styles` directory replace the files with the files and nested directory provided in this repository
-- Create a MySQL database for the project called `myapp`. The code for setting up the tables is here (ADD LINK)
+- Create a MySQL database for the project called `myapp`. The code for setting up the tables is at the bottom of this README file.
 - In the top level directory (`foodmanagerapp`) create a directory called `lib` and in that directory create the file 
  `db.js`
     - `db.js` should contain the following code BUT replace "YourPasswordHere" with your database password, if your socket path is different change it, same with user, etc.:
@@ -100,3 +99,83 @@ The following does NOT include what is automatically created by npm/next NOR doe
     - lib
         - db.js
         - tasty-conn.js
+
+## SQL For Creating The Tables
+```
+use myapp;
+
+/*Table to hold items/ingredients that user has*/
+create table my_pantry
+(item_name varchar(255) NOT NULL,
+cups decimal(7, 2),
+tbs int(10),
+tsp decimal(7,2),
+grams decimal (7, 2),
+lbs decimal (7, 2),
+oz decimal (7, 2),
+exp_date date,
+CONSTRAINT PK_Pantry primary key (item_name,exp_date)
+);
+
+/*Part 1 of 2 of recipe storage (all non-ingredient info)*/
+create table recipe_info
+(recipe_name varchar(400) NOT NULL,
+instructions text(10000) NOT NULL,
+is_fav bool default 0,
+notes text(8000),
+recipe_by varchar(100),
+PRIMARY KEY (recipe_name));
+
+
+/*analagous to above table, but for recipes that are being made + can change quantities for instance of making a recipe 
+without altering the original that is saved*/
+create table in_progress_info
+(recipe_name varchar(400) NOT NULL,
+instructions text(10000) NOT NULL,
+is_fav bool default 0,
+notes text(8000),
+recipe_by varchar(100),
+PRIMARY KEY (recipe_name));
+
+/*store ingredient info for all saved recipes (can then be sorted by recipe name to get ingredients for a particular recipe)*/
+create table recipe_ingredients
+(recipe_name varchar(400) NOT NULL,
+ingredient_name varchar(255) NOT NULL,
+cups decimal(7, 2),
+tbs int,
+tsp decimal(7,2),
+grams decimal (7, 2),
+lbs decimal (7, 2),
+oz decimal (7, 2),
+descriptors varchar(255),
+items decimal(7,2),
+misc_unit varchar(50),
+constraint PK_ingredients primary key (recipe_name,ingredient_name),
+foreign key (recipe_name) references recipe_info(recipe_name));
+
+/*analagous to above table*/
+create table in_progress
+(recipe_name varchar(400) NOT NULL,
+ingredient_name varchar(255) NOT NULL,
+cups decimal(7, 2),
+tbs int,
+tsp decimal(7,2),
+grams decimal (7, 2),
+lbs decimal (7, 2),
+oz decimal (7, 2),
+descriptors varchar(250);
+items decimal(7,2),
+misc_unit varchar(50),
+constraint PK_in_prog primary key (recipe_name,ingredient_name),
+foreign key (recipe_name) references in_progress_info(recipe_name));
+
+
+create table shopping_list
+(item_name varchar(300) NOT NULL,
+quantity decimal(7, 2),
+units varchar(40),
+primary key (item_name));
+
+
+SET GLOBAL max_connections = 1024;
+```
