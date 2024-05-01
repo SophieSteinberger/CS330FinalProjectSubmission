@@ -170,12 +170,5 @@ constraint PK_in_prog primary key (recipe_name,ingredient_name),
 foreign key (recipe_name) references in_progress_info(recipe_name));
 
 
-create table shopping_list
-(item_name varchar(300) NOT NULL,
-quantity decimal(7, 2),
-units varchar(40),
-primary key (item_name));
-
-
 SET GLOBAL max_connections = 1024;
 ```
