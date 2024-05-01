@@ -1,0 +1,27 @@
+.ingArea {
+    border: black 1px solid;
+    background-color: white;
+    padding: 1em;
+    margin: 2em 0 2em 0;
+    border-radius: 6px;
+}
+
+.buttonGeneral {
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.3em 0.55em 0.3em 0.45em;
+    font-size: 0.8em;
+    margin: 0.5em 4em 0 0.5em;
+}
+
+.ingInput {
+    margin: 0.75em;
+
+}
+
+.inputLabel {
+    padding-left: 0.75em;
+    font-weight: bolder;
+}
+

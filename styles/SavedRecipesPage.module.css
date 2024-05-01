@@ -1,0 +1,169 @@
+.pageHead {
+    text-align: center;
+    margin-top: 0.3em;
+}
+
+.wholePage {
+    background-color: rgb(190, 229, 247);
+    margin: 0;
+    padding: 1em 0 100% 2em;
+    width: 100%;
+    margin-left: -1em;
+    font-family:
+            Menlo,
+            Monaco,
+            Lucida Console,
+            Liberation Mono,
+            DejaVu Sans Mono,
+            Bitstream Vera Sans Mono,
+            Courier New,
+            monospace;
+}
+
+#myRecList {
+    width: 75%;
+    padding: 1em 3em 2em 3em;
+    border: 5px solid rgb(8, 66, 93);
+    background-color: white;
+    border-radius: 6px;
+    margin: 2em auto 1em auto;
+}
+
+#myRecList ul {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cancelAddRecipeBtn {
+    float: right;
+    background-color: rgb(8, 66, 93);
+    color: white;
+    margin-right: 8em;
+    margin-top: 3em;
+    border-radius: 6px;
+    padding: 0.5em 0.6em 0.5em 0.6em;
+}
+
+.buttonGeneral {
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.4em 0.65em 0.4em 0.55em;
+    font-size: 0.95em;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    margin-right: 0.75em;
+}
+
+.buttonGeneral2 {
+   /* display: block; */
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.3em 0.55em 0.3em 0.45em;
+    font-size: 0.8em;
+    margin: 0 0.75em 0 0;
+}
+
+.addRecipeBtn {
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.7em 1em 0.7em 1em;
+    font-size: 1.1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.savedRecList {
+    padding-left: 2em;
+
+}
+
+.recList {
+    list-style-type: none;
+    padding-top: 1%;
+    font-size: 110%;
+    font-weight: bolder;
+}
+
+.closeRecBtn {
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    font-size: 0.9em;
+    float: right;
+    margin-right: 0.5em;
+    margin-top: 1.5em;
+}
+
+.recDisplay {
+    position: absolute;
+    top: 5%;
+    width: 85%;
+    background-color: white;
+    border: 1px black solid;
+    padding: 2% 5% 2% 5%;
+    margin: 1.35em 2.4% 1.5em 0;
+    z-index: 100;
+    border-radius: 6px;
+}
+
+.recDisplay h3, .recDisplay h4 {
+    font-size: larger;
+    margin-left: 1.2em;
+}
+
+.recDisplay ol li, .recDisplay ul li {
+    
+    margin-right: 2em;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+}
+
+.recDisplay ol li {
+    line-height: 1.75em;
+}
+
+#newrecipe {
+    margin: 1em 3% 1em 3%;
+    width: 94%;
+}
+
+.recipeInput {
+    margin: 0 3% 0 3%;
+    padding: 0.1em;
+}
+
+#recipeinput {
+    margin: 0;
+}
+
+.miscLabel {
+    font-weight: bolder;
+    font-size: 1.1em;
+    margin-right: 1em;
+}
+
+.instList {
+    margin: 0;
+    padding-left: 1.1em;
+}
+
+#wholeForm {
+    width: 85%;
+    padding: 2em 3em 2em 3em;
+    border: black solid 1px;
+    background-color: white;
+    border-radius: 6px;
+    margin-right: auto;
+}
+
+
+.recName {
+    margin: 0 1em 0 6%;
+    font-size: 1.5em;
+}

@@ -1,0 +1,62 @@
+.navList {
+    font-family:
+            Menlo,
+            Monaco,
+            Lucida Console,
+            Liberation Mono,
+            DejaVu Sans Mono,
+            Bitstream Vera Sans Mono,
+            Courier New,
+            monospace;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px black solid;
+    background-color: rgb(8, 66, 93);
+    color: white;
+    margin: 0 0 5px 0;
+    padding: 5px 0 5px 0;
+    z-index: 1000;
+}
+
+.navLi {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(8, 66, 93);
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.activeLi {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.2em;
+    background-color: rgb(90, 133, 155);
+}
+
+.navLink{
+    padding-right: 2%;
+    padding-left: 2%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.navLi:hover {
+    background-color: rgb(3, 31, 43);
+    color: white;
+}
+
+#main {
+    padding-top: 1em;
+    /*background-color: aquamarine;*/
+}

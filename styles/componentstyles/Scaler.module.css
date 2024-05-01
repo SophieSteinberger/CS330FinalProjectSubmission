@@ -1,0 +1,77 @@
+.generalBtnSm {
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.3em 0.55em 0.3em 0.55em;
+    font-size: 0.75em;
+    margin-right: 0.5em;
+}
+
+.generalBtnSm2 {
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.3em 0.55em 0.3em 0.55em;
+    font-size: 0.85em;
+    margin: 0 0.4em;
+}
+
+.scalerClose {
+    float: right;
+    margin-right: 1em;
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.3em 0.55em 0.3em 0.55em;
+    font-size: 0.85em;
+}
+
+.generalBtnLg {
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.3em 0.55em 0.3em 0.55em;
+    font-size: 0.85em;
+}
+
+#clearScale {
+    float: right;
+    margin-right: 2em;
+}
+
+.input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    margin: 0.5em auto;
+}
+
+.input2 {
+    display: block;
+    margin-top: 1.7em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1.5em auto 1em auto;
+}
+
+#byIng p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scalableIng li {
+    margin-bottom: 0.5em;
+}
+
+.scalableIng:hover {
+    color: rgb(8, 66, 93);
+}
+
+.adjNum {
+    border: 1px black solid;
+    padding: 0.2em 0.4em;
+    color: rgb(8, 66, 93);
+}
+

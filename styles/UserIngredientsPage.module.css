@@ -1,0 +1,109 @@
+#itemsDisplay {
+    position: absolute;
+    top: 5%;
+    width: 85%;
+    background-color: white;
+    border: 1px black solid;
+    padding: 2% 5% 2% 5%;
+    margin: 1.35em 2.4% 1.5em 0;
+    z-index: 100;
+    border-radius: 6px;
+}
+
+#tableHead td{
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-bottom: 1em;
+    
+    padding: 1em 0 0.5em 1em;
+}
+
+.rows1 {
+    background-color: rgb(201, 223, 241);
+    padding: 1em 0 0.9em 2em;
+}
+
+.rows2 {
+    background-color: rgb(222, 238, 251);
+    padding: 1em 0 0.9em 2em;
+}
+
+
+#wholePg {
+    background-color: rgb(190, 229, 247);
+    margin: 0;
+    padding: 1em 0 100% 2em;
+    width: 100%;
+    margin-left: -1em;
+    font-family:
+            Menlo,
+            Monaco,
+            Lucida Console,
+            Liberation Mono,
+            DejaVu Sans Mono,
+            Bitstream Vera Sans Mono,
+            Courier New,
+            monospace;
+}
+
+#sortBtn {
+    float: right;
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.4em 0.65em 0.4em 0.55em;
+    font-size: 0.7em;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+.buttonGeneralLg {
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.4em 0.65em 0.4em 0.55em;
+    font-size: 0.92em;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    margin-right: 0.75em;
+}
+
+.smBtns {
+   /* display: block; */
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.3em 0.55em 0.3em 0.45em;
+    font-size: 0.8em;
+    margin: 0;
+}
+
+#ingTable {
+    overflow-x: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tRow td:nth-last-child(2) {
+    padding: 0;
+}
+
+.tRow td:nth-last-child(1) {
+    padding: 0 0 0 0.3em;
+}
+
+#cancelBtn {
+    position: relative;
+    left: 5em;
+    bottom: 2em;
+}
+
+.cancelAdd {
+    float: right;
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.3em 0.55em 0.3em 0.45em;
+    font-size: 0.8em;
+    margin: 0;
+}

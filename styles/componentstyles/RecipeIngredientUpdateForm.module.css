@@ -1,0 +1,106 @@
+#saveBtn {
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.4em 0.65em 0.4em 0.55em;
+    font-size: 0.95em;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    margin-right: 0.75em;
+}
+
+#recName {
+    width: 33%;
+    margin-right: 0.3em;
+    font-size: 1.5em;
+}
+
+#recNameArea {
+    /* margin-bottom: 1em;
+    margin-left: auto; */
+    margin: auto;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.recNameInp {
+    font-size: 1em;
+}
+
+.buttonGeneral {
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.3em 0.55em 0.3em 0.45em;
+    font-size: 0.8em;
+    margin: 0.5em 4em 0 0.5em;
+}
+
+.buttonInstEdit {
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.3em 0.55em 0.3em 0.45em;
+    font-size: 0.8em;
+    margin: 0 0 0 1em;
+}
+
+#btnAddIngredient {
+    margin: -3em 0 0 0;
+    padding: 0.5em 0.75em 0.5em 0.7em;
+    font-size: 0.9em;
+}
+
+.ingInput {
+    margin: 0.75em;
+}
+
+.inputLabel {
+    font-weight: bold;
+    padding-left: 0.75em;
+    font-weight: bold;
+}
+
+.inputLabelLg {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.insts {
+    width: 80%;
+    padding: 0.25em;
+    margin: 0.5em 1em 0.5em 0;
+}
+
+#instrList {
+    margin: 0;
+    padding-left: 1.1em;
+}
+
+.notesInp {
+    width: 80%;
+    padding: 0.25em;
+    margin: 0.5em 1em 0.5em 0;
+}
+
+.ingDelBtn {
+    float: right;
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.3em 0.55em 0.3em 0.45em;
+    font-size: 0.8em;
+    margin: 0.5em 4em 0 0.5em;
+}
+
+.ingArea {
+    padding-top: 1em;
+    border-top: black 1px solid;
+}
+
+.ingArea:nth-last-child(1) {
+    border-bottom: 1px black solid;
+    margin-bottom: 1.7em;
+}
+

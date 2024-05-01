@@ -1,0 +1,51 @@
+#wholePage {
+    background-color: rgb(190, 229, 247);
+    margin: 0 0 0 -1%;
+    padding: 2% 2% 2% 2%;
+    width: 103%;
+}
+
+#myIngredientsSection {
+    width: 75%;
+    padding: 2em 3em 2em 3em;
+    border: 5px solid rgb(8, 66, 93);
+    background-color: white;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#myIngredientsSection h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+#myIngredientsSection table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#myIngredientsSection table thead {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#myIngredientsSection table td{
+    padding: 1em;
+}
+
+#link {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(8, 66, 93);
+}
+
+#link Link {
+    color: inherit;
+    text-decoration: inherit;
+}
+

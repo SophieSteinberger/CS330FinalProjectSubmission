@@ -1,0 +1,18 @@
+.subBtn {
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.3em 0.55em 0.3em 0.45em;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+.inputs {
+    margin: 0.75em;
+}
+
+.inputLabels {
+    font-weight: bold;
+    padding-left: 0em;
+    font-weight: bolder;
+}

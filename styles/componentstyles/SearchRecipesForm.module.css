@@ -1,0 +1,45 @@
+.buttonGeneralLg {
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.4em 0.65em 0.4em 0.55em;
+    font-size: 0.95em;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    margin-right: 0.75em;
+}
+
+.buttonGeneralSm {
+   /* display: block; */
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.25em 0.55em 0.25em 0.55em;
+    font-size: 0.9em;
+    margin: 0.5em 0 0 0.4em;
+}
+
+.paramInput {
+    display: inline;
+    width: 86%;
+    margin: 0 0.5em 0.5em 0.5em;
+}
+
+#addParam {
+    display: inline;
+}
+
+#wholeThing {
+    margin-top: 2em;
+    margin-left: 1em;
+}
+ #header {
+    margin-left: 0.25em;
+    margin-bottom: 0.25em;
+ }
+
+ .fastRec {
+    display: inline;
+    margin-left: 1em;
+ }
+

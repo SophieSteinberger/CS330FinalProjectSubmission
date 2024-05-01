@@ -1,0 +1,13 @@
+.unCheckBtn {
+    display: inline-block;
+    margin-left: auto;
+    padding: 0.55em;
+    position: relative;
+    bottom: 0.35em;
+}
+
+.checkBtn {
+    padding: 0em 0.2em;
+    position: relative;
+    bottom: 0.25em;
+}

@@ -1,0 +1,134 @@
+#wholePage {
+    background-color: rgb(190, 229, 247);
+    margin: 0 0 0 -1%;
+    padding: 2% 2% 2% 2%;
+    width: 100%;
+    font-family:
+            Menlo,
+            Monaco,
+            Lucida Console,
+            Liberation Mono,
+            DejaVu Sans Mono,
+            Bitstream Vera Sans Mono,
+            Courier New,
+            monospace;
+}
+
+#expSoon {
+    width: 35%;
+    height: 30%;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 0.5em 1em 0.5em 1em;
+    display: inline;
+    float: right;
+    border: 5px solid rgb(8, 66, 93);
+    background-color: white;
+    border-radius: 6px;
+}
+
+#searchForm {
+    float: left;
+    display: inline;
+    width: 50%;
+    height: 30%;
+    background-color: white;
+    border-radius: 6px;
+    border: 5px solid rgb(8, 66, 93);
+}
+
+#topContainer {
+    width: 100%;
+    height: 40%;
+    margin-bottom: 3em;
+}
+
+#expSoon p:nth-last-child(3){
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin-left: 10%;
+}
+
+#expSoon p:nth-last-child(2), #expSoon p:nth-last-child(1) {
+    width: 80%;
+    padding-left: 10%;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+#searchRes {
+    clear: both;
+    padding: 0.75em;
+    background-color: white;
+    border-radius: 6px;
+    position: relative;
+    top: 2em;
+    border: 5px solid rgb(8, 66, 93);
+    margin-bottom: 1em;
+}
+
+#searchRes h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#searchRes h3 {
+    text-align: center;
+}
+
+#searchAndRes {
+    width: 88%;
+    padding: 0 3% 0 3%;
+    margin: 1em 4% 1em 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+}
+
+#displayRes ul li {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.1em;
+}
+
+.currentRecipeDisplay {
+    clear: both;
+    padding: 0.75em;
+    background-color: white;
+    border-radius: 6px;
+    border: 5px solid rgb(8, 66, 93);
+    margin-bottom: 2em;
+}
+
+.currentRecipeDisplay h3, .currentRecipeDisplay h4 {
+    margin-left: 2em;
+}
+
+.currentRecipeDisplay h3 {
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+
+.currentRecipeDisplay ul li, .currentRecipeDisplay ol li {
+    margin-left: 1em;
+    margin-right: 2em;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.btns {
+    background-color: rgb(8, 66, 93);
+    color: white;
+    border-radius: 6px;
+    padding: 0.3em 0.55em 0.3em 0.45em;
+    font-size: 0.8em;
+    margin: 0 0.75em 0 0;
+}
+
+.btnsSection {
+    float: right;
+    padding-top: 1em;
+    padding-right: 0.75em;
+}
+
